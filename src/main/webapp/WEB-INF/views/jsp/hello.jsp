@@ -28,7 +28,7 @@
 		</c:if>
  
 		<c:if test="${empty name}">
-			DAFFA VENKAT WULFA!
+			Welcome Welcome!
 		</c:if>
     </p>
     <p>
