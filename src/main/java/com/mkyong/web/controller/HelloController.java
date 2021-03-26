@@ -11,7 +11,7 @@ import org.springframework.web.servlet.ModelAndView;
 public class HelloController {
 
 	@RequestMapping(value = "/", method = RequestMethod.GET)
-	public String printWelcome(ModelMap model) {
+	public String printdaffa venkat(ModelMap model) {
 
 		model.addAttribute("message", "Spring 3 MVC Hello World");
 		return "hello";
